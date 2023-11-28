@@ -23,16 +23,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* margin:25px;
-    margin-top: 35px;
-    height: 50vh; */
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
-
-    /* display: flex;
-    flex-direction: column; */
 }
 
 
@@ -50,14 +40,6 @@ body {
     border-top-right-radius: 20px;
     border-bottom-left-radius: 80% 60px;
     border-bottom-right-radius: 80% 60px;
-
-    /* display: flex;
-    justify-content: center;
-    flex-direction: column;
-    background-color: rgb(56, 60, 63);
-    width: 22.5em;
-    height: 18.5em;
-    border-radius: 0.5em 0.5em 1em 1em; */
 }
 
 .pantalla{
@@ -67,6 +49,13 @@ body {
     background-color: rgb(146, 175, 150);
     height: 27vh;
     width: 15vw;
+    margin-bottom: 20px;
+}
+
+.pantalla:hover{
+    background-image: url("../img/screenOn.png");
+    background-repeat: no-repeat;
+    background-size:100%;
 }
 
 .inferior{
@@ -77,29 +66,21 @@ body {
 }
 
 .botones{
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
     margin-top: 20px;
-    background-color: rgb(146, 175, 150);
-    height: 20vh;
-    width: 26vw; */
-    
     display: flex;
-    height: 35%;
+    height: 20vh;
 }
 
 .cruceta{
-    /* justify-content: left; */
     position: relative;
     display: flex;
-    margin-right: 5.5em;
-    margin-top: 2em;
-    background-color: saddlebrown;
+    margin-right: 135px;
+    margin-top: 35px;
+    height: 15vh;
 }
 
 .accion{
-    /* justify-content: right; */
+    margin-top: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -109,16 +90,12 @@ body {
 }
 
 .btna{
-    /* border-radius: 50%;
-    background-color: aliceblue;
-    height: 5vh;
-    width: 5vw; */
     display: flex;
+    justify-content:center;
+    align-items: center;
     background-color: rgb(196, 9, 9);
     color:rgb(117, 9, 9);
-    align-items: center;
-    justify-content:center;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-bottom: 45px;
     width: 3.5em;
     height: 3.5em;
@@ -126,19 +103,44 @@ body {
 }
 
 .btnb{
-    /* border-radius: 50%;
-    background-color: aliceblue;
-    height: 5vh;
-    width: 5vw; */
     margin-top:0;
-    margin-right: 10px;
-    margin-left: 50px;
+    margin-right: 20px;
+    margin-left: 0;
     display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(66, 167, 8);
     color:rgb(38, 97, 4);
-    align-items: center;
-    justify-content: center;
     width: 3.5em;
     height: 3.5em;
     border-radius: 50%;
+}
+
+.opciones{
+    display: flex;
+    justify-content: center;
+    height: 20vh;
+    width: 30vw;
+}
+
+.select, .start{
+    margin-top: 40px;
+    height: 10px;
+    width: 40px;
+    border-radius: 60px;
+    background-color: black;
+}
+
+.select{
+    margin-left: 150px;
+    margin-right: 15px;
+}
+.start{
+    margin-left: 15px;
+    margin-right: 50px;
+}
+
+.altavoz{
+    margin-top: 40px;
+    margin-left: 20px;
 }
